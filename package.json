@@ -38,9 +38,9 @@
   "homepage": "https://github.com/MichalZalecki/ts-lib-boilerplate#readme",
   "description": "Minimal TypeScript library boilerplate",
   "devDependencies": {
-    "@types/jest": "^21.1.5",
+    "@types/jest": "^21.1.10",
     "jest": "^21.2.1",
-    "ts-jest": "^21.1.4",
-    "typescript": "^2.6.1"
+    "ts-jest": "^21.2.4",
+    "typescript": "^2.8.1"
   }
 }
