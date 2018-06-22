@@ -16,8 +16,11 @@ export namespace SampleDoc {
         "----\n" + 
         "<1> test comment";
         var html = asciidoctor.convert(content, {attributes: {'source-highlighter': 'highlightjs', showtitle: true, icons: 'font'}});
-     //   var html = asciidoctor.convert(content);
-       
+     
+        
+        var content = "raja `kavi`";
+        var html = asciidoctor.convert(content, {attributes: {'source-highlighter': 'highlightjs', showtitle: true, icons: 'font'}});
+
         console.log(html);
     }
 }
